@@ -4,8 +4,10 @@ public class StigeHinder extends Hinder {
     StigeHinder(Rute rute, Rute sluttRute){
         super(rute);
     }
+
+
     @Override
     public void aktiver(Spiller spiller) {
-
+        spiller.flyttSpiller(sluttRute);
     }
 }

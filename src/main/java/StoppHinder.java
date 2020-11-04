@@ -6,6 +6,6 @@ public class StoppHinder extends Hinder {
 
     @Override
     public void aktiver(Spiller spiller) {
-
+        spiller.landetPaaStaaOverRute();
     }
 }
